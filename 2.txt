@@ -1,0 +1,13 @@
+mkdir folder
+
+cd folder
+
+touch 1.txt
+
+touch 2.txt
+
+touch 3.txt
+
+mv `find 1.txt` ..
+
+rm ../1.txt
